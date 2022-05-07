@@ -1,0 +1,142 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: HACKED;
+  src: url(HACKED.ttf);
+}
+
+@font-face {
+  font-family: Fira Code;
+  src: url(FiraCode-VariableFont_wght.ttf);
+}
+
+.mailPage{
+  background-color: #17141D;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.upper{
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo p{
+
+  text-align: center;
+  font-size: 15vh;
+  color: #ECECEC;
+  font-family: HACKED ;
+}
+
+.logo img{
+    height: 20em;
+    width: 25em;
+
+}
+.middle{
+  display: flex;
+  justify-content: center;
+  margin: 5vh;
+}
+
+.btnContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 5vh;
+
+}
+
+.successMsg{
+  color:white;
+  justify-content: center;
+  padding: 3vw;
+  width: 60%;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 2px solid rgba(80, 222, 222, 0.18);
+  font-family: "Fira Code";
+  flex-wrap: wrap;
+}
+
+
+
+.successMsg p{
+  font-size: 10vh;
+}
+
+button {
+  font-family: "Fira Code";
+  font-weight: bold;
+  padding: 8px 20px;
+  border-radius: 2px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: aqua
+  ;
+  margin-bottom: 5vh;
+}
+button:disabled {
+  cursor: not-allowed;
+  background-color: #056b6b;
+}
+
+button:hover{
+  box-shadow: 0px 0px 20px var(--blue),
+  inset 10px 0px 20px rgba(0, 210, 210, 0.5);
+  transition: all 0.3s ease-out;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+.hacking{
+  color:white;
+  font-family: 'Roboto Mono', monospace;
+}
+#displayout{
+  width:100%;
+ display:flex;
+  flex-flow:column;
+}
+
+#output{
+  display:flex;
+  text-shadow: 0px 0px 20px #0000cc,0px 0px 10px #0000ff;
+  font-size:40px;
+  flex-wrap: wrap;
+}
+#inputtext{
+  margin:auto;
+  width:70%;
+  outline:none;
+  padding:10px;
+}
+#inputarea{
+  margin:auto;
+  width:40%;
+}
+#btn{
+  margin:auto;
+  width:20%;
+  padding:10px;
+}
+.letters{
+  margin:10px;
+}
